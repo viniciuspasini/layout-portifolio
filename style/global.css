@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    /*colors*/
+    --red: #E3646E;
+    --purple: #BB72E9;
+    --blue: #3996DB;
+    --green: #82BC4F;
+    --yellow: #EABD5F;
+    --gray-100: #0D0E11;
+    --gray-200: #16181D;
+    --gray-300: #292C34;
+    --gray-400: #878EA1;
+    --gray-500: #C0C4CE;
+    --gray-600: #E2E4E9;
+
+    /*fonts*/
+    --font-family-asap: "Asap", serif;
+    --text-lg-asap: 700 56px/120% var(--font-family-asap);
+    --text-md-asap: 700 24px/120% var(--font-family-asap);
+    --text-sm-asap: 700 16px/120% var(--font-family-asap);
+
+    --font-family-inconsolata: "Inconsolata", serif;
+    --text-subtitle: 100 20px/120% var(--font-family-inconsolata);
+
+    --font-family-mavenPro: "Maven Pro", serif;
+    --text-text-md: 400 16px/140% var(--font-family-mavenPro);
+    --text-text-sm: 400 14px/140% var(--font-family-mavenPro);
+}
+
+body{
+    font: var(--text-text-md);
+    background-color: var(--gray-200);
+    color: var(--gray-600);
+}
+
+h1{
+    font: var(--text-lg-asap);
+}
+
+h2{
+    font: var(--text-md-asap);
+}
+
+h3{
+    font: var(--text-sm-asap);
+}
+
+.container{
+    max-width: 1040px;
+    margin-inline: auto;
+}

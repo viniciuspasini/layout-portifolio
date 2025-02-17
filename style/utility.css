@@ -1,0 +1,12 @@
+
+.red{
+    color: var(--red);
+}
+
+.text-subtitle{
+    font: var(--text-subtitle)
+}
+
+.text-sm{
+    font: var(--text-text-sm);
+}
