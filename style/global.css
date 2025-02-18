@@ -53,3 +53,12 @@ h3{
     max-width: 1040px;
     margin-inline: auto;
 }
+
+section{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: var(--gray-500);
+}

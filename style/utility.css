@@ -10,3 +10,12 @@
 .text-sm{
     font: var(--text-text-sm);
 }
+
+.display-grid{
+    display: grid;
+}
+
+.gap-24{
+    gap: 24px
+
+}

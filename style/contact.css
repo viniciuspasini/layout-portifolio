@@ -1,0 +1,35 @@
+#contact{
+    padding-block: 128px 200px;
+    background-image: url("../assets/background/Background_Contacts.svg");
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    margin-bottom: 48px;
+}
+
+#contact header + div{
+    width: 400px;
+    margin-inline: auto;
+}
+
+#contact header + div a{
+    display: inline-block;
+    background-color: var(--gray-300);
+    width: 400px;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+#contact header + div a:hover{
+    border: 1px solid var(--blue);
+}
+
+#contact header + div a span{
+    margin-right: auto;
+}

@@ -1,0 +1,30 @@
+
+
+#project .container header{
+    padding-block: 72px 56px;
+
+    h2{
+        margin-top: 8px;
+    }
+}
+
+#project #grid{
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 144px;
+}
+
+#project .container .card{
+    text-align: justify;
+    background-color: var(--gray-300);
+    padding: 12px 12px 17px 12px;
+    border-radius: 12px;
+    img{
+        width: 306px;
+        height: 156;
+        margin-bottom: 20px;
+        border-radius: 8px;
+    }
+    h3{
+        margin-bottom: 8px;
+    }
+}
